@@ -1,0 +1,119 @@
+body.sign{
+    padding: 100px;
+    background-color: #f0f0f0;
+}
+.a_logo{
+    font-size: 30px;
+}
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+    padding: 50px;
+    box-shadow: 0px 0px 4px 1px rgb(169, 169, 169);
+    border-radius: 18px;
+}
+.img_form{
+    width: 150px;
+    position: absolute;   
+}
+.img_form.one{
+    top:-100px;
+    left:-70px;
+    transform: rotate(-18deg);
+}
+.img_form.two{
+    top:40px;
+    right:-90px;
+    transform: rotate(15deg);
+}
+.img_form.three{
+    bottom:-80px;
+    left:70px;
+    transform: rotate(-15deg);
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+}
+
+input{
+    background-color: white; 
+    height:30px;    
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 12.5px;
+    padding: 2.5px 10px;
+}
+input:invalid{
+    color:red;
+}
+label{
+    font-size: 23px;
+}
+.label_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.label_title p{
+    font-size: 15px;
+    color:#f7d3a1;
+    margin-left: 10px;
+}
+.label_title.file{
+    flex-direction: column;
+    align-items: flex-start;
+}
+#submitButton{
+    margin-top: 50px;
+    width:30%;
+    height:35px;
+    background-color: #f7d3a1;
+    color: #f6f5e9;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 5px 10px 0px #f6ca8d8d;
+}
+#submitButton:hover{
+    box-shadow: 0px 5px 10px 0px #64571d87; 
+    transition: all 0.3s ease;
+}
+.account_question{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    z-index: 5;
+}
+.account_question p{
+    font-size: 18px;
+}
+.account_question a{
+    font-size: 18px;
+    color: #f7d3a1;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+.account_question a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.error_text{
+    margin-top: 5px;
+    color:red;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+}
